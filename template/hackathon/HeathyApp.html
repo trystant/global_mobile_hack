@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HealthyChoices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <h1>Healthy<span id="title">Choices</span></h1>
+    <p id="subhead"> Find healthier dining options, wherever you are</p>
+    <hr />
+    <br /> 
+    
+    <div class="container">
+	    <div class="row">
+		    <div class="col-md-8 col-md-offset-2"> <!--You can add numerous class within quotation marks-->
+			    <div class="input-group">
+			      <input type="text" class="form-control">
+			      <span class="input-group-btn">
+			        <button class="btn btn-default" type="button">Search</button>
+			      </span>
+			    </div><!-- /input-group -->
+		    </div><!-- /.col-lg-6 -->
+	  	</div><!-- /.row -->
+	   
+	    <br />
+	    <div class="row">
+			  <div class="col-md-5 col-md-push-5">
+				  	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ogilvy+%26+Mather,+11th+Avenue,+New+York,+NY&amp;aq=0&amp;oq=ogilvy+and+mather&amp;sll=40.760781,-73.98468&amp;sspn=0.366146,0.724411&amp;ie=UTF8&amp;hq=Ogilvy+%26+Mather,&amp;hnear=11th+Ave,+New+York&amp;t=m&amp;ll=40.763649,-73.99605&amp;spn=0.033966,0.025056&amp;output=embed">
+					</iframe>
+				  	<br />
+				  	<small>
+					  	<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Ogilvy+%26+Mather,+11th+Avenue,+New+York,+NY&amp;aq=0&amp;oq=ogilvy+and+mather&amp;sll=40.760781,-73.98468&amp;sspn=0.366146,0.724411&amp;ie=UTF8&amp;hq=Ogilvy+%26+Mather,&amp;hnear=11th+Ave,+New+York&amp;t=m&amp;ll=40.763649,-73.99605&amp;spn=0.033966,0.025056" style="color:#0000FF;text-align:left">View Larger Map
+					  	</a>
+				  	</small>
+			   </div><!--push--> 
+			     	 <br />
+			 <div class="col-md-3 col-md-pull-3">
+				 <ul> <!--class="col-lg-6 col-xs-6 col-lg-offset-3">-->
+				  	<li><a href="#">Ed's Eatery</a> <img src="img/yes.png" /></li>
+				  	<div class="onclick">
+					  	
+						  	<li><img src="img/location.png" /><p>1500 Broadway, Time Sq</p></li>
+						  	<li><img src="img/hours.png" /><p>9AM - 9PM</p></li>
+						  	<li><img src="img/contact.png" /><p>212.332.6748</p></li>
+					  		
+				  	</div><!--/onclick-->
+		
+				  	<li><a href="#">Peeta's Pitas</a> <img class="healthstatus" src="img/yes.png" /></li>
+				  	
+				  	<li><a href="#">Sayuri's Sushi</a> <img class="healthstatus" src="img/yes.png" /></li>
+				  	
+				  	<li><a href="#">Hungry Howey's</a> <img class="healthstatus" src="img/no.png" /></li>
+				  
+				  	<li><a href="#">Crisp Pizza</a></a> <img class="healthstatus" src="img/no.png" /></li>
+				  	
+			  	</ul>
+			  	<button type="button" class="btn btn-warning btn-block">Load More</button>
+		  	 </div><!--/pull-->
+	    </div><!--/row-->
+	    
+	    <!--<button type="button" class="btn btn-warning col-md-offset-3">Load More</button>-->
+	<br />	  	
+  </div><!--/container--> 	
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
