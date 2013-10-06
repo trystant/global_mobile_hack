@@ -1,6 +1,6 @@
 var initialLocation;
 var siberia = new google.maps.LatLng(60,105);
-var newyork = new google.maps.LatLng(40.8292, -73.9264);
+var newyork = new google.maps.LatLng(40.763630, -73.996314);
 var map;
 var lat;
 var lon;
@@ -23,8 +23,8 @@ function initialize()
 (function() {
   var flickerAPI = "http://powerful-cliffs-7455.herokuapp.com/?callback=?";
   $.getJSON( flickerAPI, {
-    lat: "40.8292",
-    lon: "-73.9264"
+    lat: "40.763630",
+    lon: "-73.996314"
   })
   .done( function( data) {
 
