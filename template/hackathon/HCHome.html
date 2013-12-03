@@ -19,7 +19,7 @@
 			    <div class="input-group">
 			      <input type="text" value="636 11th Ave, New York, NY 10036" class="form-control">
 			      <span class="input-group-btn">
-			        <button class="btn btn-default" type="button">Search</button>
+			        <button id="searchButton" class="btn btn-default" type="button">Search</button>
 			      </span>
 			    </div><!-- /input-group -->
 		    </div><!-- /.col-lg-6 -->
@@ -28,7 +28,7 @@
 	    <br />
 	    <div class="row">
 			  <div class="col-md-8 col-md-offset-2">
-				  	<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ogilvy+%26+Mather,+11th+Avenue,+New+York,+NY&amp;aq=0&amp;oq=ogilvy+and+mather&amp;sll=40.760781,-73.98468&amp;sspn=0.366146,0.724411&amp;ie=UTF8&amp;hq=Ogilvy+%26+Mather,&amp;hnear=11th+Ave,+New+York&amp;t=m&amp;ll=40.763649,-73.99605&amp;spn=0.033966,0.025056&amp;output=embed">
+				  	<iframe id="searchResult" width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ogilvy+%26+Mather,+11th+Avenue,+New+York,+NY&amp;aq=0&amp;oq=ogilvy+and+mather&amp;sll=40.760781,-73.98468&amp;sspn=0.366146,0.724411&amp;ie=UTF8&amp;hq=Ogilvy+%26+Mather,&amp;hnear=11th+Ave,+New+York&amp;t=m&amp;ll=40.763649,-73.99605&amp;spn=0.033966,0.025056&amp;output=embed">
 					</iframe>
 				  	<br />
 				  	<small>
@@ -43,6 +43,16 @@
   </div><!--/container--> 	
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    <!--
+    $(document).ready(function() {
+      $('#searchButton').click(function() {
+        $("#searchResult").attr('src','../../frontend/map-simple.html');
+      });
+    });
+
+    -->
+    </script>
     
   </body>
 </html>

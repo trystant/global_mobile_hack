@@ -14,7 +14,7 @@ function initialize()
     //north and east is positive
     center: newyork,
     //smaller numbers = zoom out
-    zoom: 12,
+    zoom: 16,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
 
